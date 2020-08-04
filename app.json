@@ -15,7 +15,7 @@
     "env": {
       "FLASK_APP": {
         "description": "The FLASK_APP variable for pointing to the app",
-        "generator": "server.app:app"
+        "value": "server.app:app"
       },
       "WEB_CONCURRENCY": {
         "description": "The number of processes to run.",
